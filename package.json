@@ -5,12 +5,12 @@
   "main": "backend/index.js",
   "type": "module",
   "scripts": {
-    "start": "node backend/index.js",
-    "server": "nodemon backend/index.js",
-    "build": "npm install && npm install --prefix frontend && npm run build -- prefix frontend "
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
-  "author": "",
+  "author": "yuvraj",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
