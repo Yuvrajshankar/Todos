@@ -99,3 +99,9 @@
 .delete:hover {
   color: #ed4b4b;
 }
+
+@media screen and (max-width: 600px) {
+  .input input {
+    flex: 0;
+  }
+}
