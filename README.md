@@ -1,6 +1,6 @@
 # Todos.
 
-![Todos Logo](todos.jpg)
+![Todos](todos.jpg)
 
 ## Description
 
