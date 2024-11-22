@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:3050",
+  "proxy": "https://todos-backend-h3ti.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
@@ -19,7 +19,6 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^10.0.4",
     "styled-components": "^6.1.8",
-    "todos": "file:..",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
